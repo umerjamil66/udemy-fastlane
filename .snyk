@@ -1,0 +1,415 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - react-native > @react-native-community/cli > metro > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-inspector-proxy > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-core > jest-haste-map > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > jest-haste-map > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-core > jest-haste-map > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > jest-haste-map > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-core > jest-haste-map > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > jest-haste-map > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-core > jest-haste-map > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > jest-haste-map > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-core > jest-haste-map > anymatch > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > jest-haste-map > anymatch > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-core > jest-haste-map > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-core > jest-haste-map > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-core > jest-haste-map > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > jest-haste-map > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-core > jest-haste-map > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-core > jest-haste-map > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-core > jest-haste-map > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > jest-haste-map > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-core > jest-haste-map > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > jest-haste-map > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-core > jest-haste-map > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-core > jest-haste-map > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-core > jest-haste-map > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > jest-haste-map > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-core > jest-haste-map > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-core > jest-haste-map > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-core > jest-haste-map > anymatch > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-core > jest-haste-map > anymatch > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-cache > metro-core > jest-haste-map > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-cache > metro-core > jest-haste-map > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-core > jest-haste-map > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-core > jest-haste-map > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-core > jest-haste-map > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-cache > metro-core > jest-haste-map > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-cache > metro-core > jest-haste-map > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-core > jest-haste-map > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-core > jest-haste-map > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > jest-haste-map > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-core > jest-haste-map > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-core > jest-haste-map > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-core > jest-haste-map > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-core > jest-haste-map > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-cache > metro-core > jest-haste-map > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-cache > metro-core > jest-haste-map > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-core > jest-haste-map > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-core > jest-haste-map > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-core > jest-haste-map > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-cache > metro-core > jest-haste-map > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-cache > metro-core > jest-haste-map > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-core > jest-haste-map > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-cache > metro-core > jest-haste-map > anymatch > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-cache > metro-core > jest-haste-map > anymatch > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-core > jest-haste-map > anymatch > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-cache > metro-core > jest-haste-map > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-cache > metro-core > jest-haste-map > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-core > jest-haste-map > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-core > jest-haste-map > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-core > jest-haste-map > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-cache > metro-core > jest-haste-map > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-cache > metro-core > jest-haste-map > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-core > jest-haste-map > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-cache > metro-core > jest-haste-map > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-cache > metro-core > jest-haste-map > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-core > jest-haste-map > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-cache > metro-core > jest-haste-map > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-cache > metro-core > jest-haste-map > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-core > jest-haste-map > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > anymatch > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-cache > metro-core > jest-haste-map > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-cache > metro-core > jest-haste-map > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-core > jest-haste-map > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-cache > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-cache > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-cache > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-cache > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-cache > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-cache > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-cache > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-cache > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > braces > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-cache > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro-config > metro-cache > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > extglob > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > jest-util > @jest/fake-timers > jest-message-util > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-02-09T14:27:38.170Z'
+  SNYK-JS-LODASH-567746:
+    - react-native > @react-native-community/cli > inquirer > lodash:
+        patched: '2023-02-09T14:27:38.170Z'
+    - react-native > @react-native-community/cli > metro > async > lodash:
+        patched: '2023-02-09T14:27:38.170Z'
